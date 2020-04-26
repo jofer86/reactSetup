@@ -1,8 +1,9 @@
 import React from 'react';
-import { render } from 'react-dom';
+import ReactDOM from 'react-dom';
+import List from './containers/List';
 
 const App = () => {
-  return <h1>Hello</h1>;
+  return <List />
 };
 
-render(<App />, document.getElementById('root'));
+ReactDOM.render(<App />, document.getElementById('root'));
